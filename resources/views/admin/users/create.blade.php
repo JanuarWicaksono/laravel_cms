@@ -1,7 +1,8 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1>Create</h1>
+    <h1>Create User</h1>
+
     
     {!! Form::open(['method' => 'POST', 'action' => 'AdminUsersController@store', 'files' => true]) !!}
         <div class="form-group">
@@ -17,7 +18,7 @@
             {!! Form::select('role_id', ['' => 'Choose Options'] + $roles, null, ['class' => 'form-control']) !!}
         </div>
         <div class="form-group">
-            {!! Form::label('status', 'Status : ') !!}
+            {!! Form::label('is_active', 'Status : ') !!}
             {!! Form::select('is_active', [1 => 'Active', 2 => 'Not Active'], null, ['class' => 'form-control']) !!}
         </div>
         <div class="form-group">
