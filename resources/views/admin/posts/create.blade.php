@@ -2,6 +2,8 @@
 
 @section('content')
 
+@include('includes.tinyeditor')
+
 <h1>Posts Create</h1>
 <div class="row">
     {!! Form::open(['method' =>'POST', 'action' => 'AdminPostsController@store', 'files' => true]) !!}
@@ -19,7 +21,7 @@
     </div>
     <div class="form-group">
         {!! Form::label('body', 'Description :') !!}
-        {!! Form::textarea('body', null, ['class' => 'form-control', 'rows' => 3]) !!}
+        {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
     </div>
     <div class="form-group">
         {!! Form::submit('Create Post', ['class' => 'btn btn-primary']) !!}

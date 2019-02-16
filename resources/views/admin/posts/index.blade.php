@@ -16,6 +16,7 @@
                     <thead>
                         <tr>
                             <th>No</th>
+                            <th>Action</th>
                             <th>Id</th>
                             <th>Photo</th>
                             <th>Owner</th>
@@ -33,9 +34,13 @@
                         @foreach ($posts as $post)
                         <tr>
                             <td>{{ $no++ }}</td>
+                            <td>
+                                <a href="{{ route('admin.posts.edit', $post->id) }}" class="btn btn-sm btn-success">Edit</a>
+                                <a href="{{ route('home.post', $post->id) }}" class="btn btn-sm btn-success">Post</a>
+                                <a href="{{ route('admin.comments.show', $post->id) }}" class="btn btn-sm btn-success">Comments</a>
+                            </td>
                             <td>{{ $post->id }}</td>
                             <td><img src="{{ $post->photo ? $post->photo->file : 'https://via.placeholder.com/50' }}" alt="" height="50"></td>
-                            <td><a href="{{ route('admin.posts.edit', $post->id) }}">{{ $post->user->name }}</a></td>
                             <td>{{ $post->category_id ? $post->category->name : 'Uncategorized' }}</td>
                             <td>{{ $post->title }}</td>
                             <td>{{ str_limit($post->body, 8) }}</td>
@@ -45,6 +50,14 @@
                         @endforeach
                     </tbody>
                 </table>
+
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-5">
+                        {{ $posts->render() }}
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
