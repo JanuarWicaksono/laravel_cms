@@ -1,27 +1,40 @@
-# Laravel PHP Framework
+<p align="center">
+	<h2>Simple Content Management System (CMS) Using Laravel</h2>
+</p>
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This is the my source code training references from Udemy Course by <a href="https://www.udemy.com/php-with-laravel-for-beginners-become-a-master-in-laravel/">Edwin Diaz</a> about build simple Content Management System (CMS) Using Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+<p align="center">
+	<h2>Tools Used</h2>
+</p>
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+<ul>
+	<li>Chrome</li>
+	<li>Xampp</li>
+	<li>HeidiSQL</li>
+	<li>Visual Studio Code</li>
+	<li>Git</li>
+	<li>Composer</li>
+</ul>
 
-## Official Documentation
+<p align="center">
+	<h2>Laravel Feature Used</h2>
+</p>
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+<ul>
+	<li>Eloquent</li>
+	<li>Migration</li>
+	<li>Validation</li>
+	<li>Soft Deleting</li>
+	<li>Adding an Image</li>
+	<li>Pagination</li>
+	<li>User Authentication</li>
+</ul>
 
-## Contributing
+<p align="center">
+	<h2>References</h2>
+</p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+<ul>
+	<li>https://www.udemy.com/php-with-laravel-for-beginners-become-a-master-in-laravel/</li>
+</ul>

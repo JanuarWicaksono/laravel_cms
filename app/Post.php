@@ -35,5 +35,9 @@ class Post extends Model
         return "http://www.gravatar.com/avatar/$hast";
     }
 
+    public function photoPlaceholder(){
+        return 'http://placehold.it/900x300';
+    }
+
 
 }
